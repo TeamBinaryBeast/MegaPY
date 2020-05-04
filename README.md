@@ -1,20 +1,22 @@
 <h1>---MegaPY---</h1>
 
-<pre style="line-height: 0.5px">
-|\    /|  |--------  /------ \      /\               |------\   \     / <br>
-| \  / |  |          |        |    /  \              |       |   \   /  <br>
-|  \/  |  |------    |    _____   /    \   -------   |------/     \ /   <br>
-|      |  |          |    |   |  |------|            |             |    <br>
-|      |  |--------  \--------|  |      |            |             |    <br><br><br>
+<pre style="text-align: center">
+|\        /|  |--------  /------- \        .               |------\   \       / <br>
+| \      / |  |          |         |      / \              |       |   \     /  <br>
+|  \    /  |  |          |               /   \             |       |    \   /   <br>
+|   \  /   |  |------    |              /     \            |------/      \ /    <br>
+|    \/    |  |          |    |----|   / ----- \           |              |     <br>
+|          |  |          |         |   |       |           |              |     <br>
+|          |  |--------  \---------|   |       |           |              |     <br>
 </pre>
 
 
 <h2>Python Development</h2>
 
 <address>
-Contributed By: Sadman Sakib Jisan & Rayhan Chowdhury
-Version: 1.0
-Institution: Dhaka City College
-Country: Bangladesh
-City: Dhaka
+Contributed By: Sadman Sakib Jisan & Rayhan Chowdhury <br>
+Version: 1.0 <br>
+Institution: Dhaka City College <br>
+Country: Bangladesh <br>
+City: Dhaka <br>
 </address>
