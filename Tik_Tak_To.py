@@ -15,6 +15,7 @@ while True:
         break
 
     elif agreement.lower()=='q':
+        print('\n')
         print("Game over!")
         break
 
