@@ -1,4 +1,3 @@
-
 one, two, three, four, five, six, seven, eight, nine= ('', '', '', '', '', '', '', '', '')
 
 print('\n')
@@ -15,7 +14,6 @@ while True:
         break
 
     elif agreement.lower()=='q':
-        print('\n')
         print("Game over!")
         break
 
@@ -71,15 +69,22 @@ if agreement.lower()=='y':
 
     score_set = []
     value_list = [[one, two, three], [four, five, six], [seven, eight, nine], [one, four, seven], [two, five, eight], [three, six, nine], [one, five, nine], [three, five, seven]]
-    count = 1
+
+    from random import randint
+
+    count = randint(1,2)
     gameover = True
     move = 0
+
+    print("First turn is for Player " + str(count))
+
+    print('\n')
 
     while gameover:
 
         if count == 1:
             player_value = first_player.upper()
-            print('Player' + str(count) + ': In which box you want to place \"' + player_value + "\" (1-9)?")
+            print('Player ' + str(count) + ': In which box you want to place \"' + player_value + "\" (1-9)?")
             turn = input('>> ')
             turn = int(turn)
             count += 1
@@ -87,7 +92,7 @@ if agreement.lower()=='y':
 
         else:
             player_value = second_player.upper()
-            print('Player' + str(count) + ': In which box you want to place \"' + player_value + "\" (1-9)?")
+            print('Player ' + str(count) + ': In which box you want to place \"' + player_value + "\" (1-9)?")
             turn = input('>> ')
             turn = int(turn)
             count -= 1
