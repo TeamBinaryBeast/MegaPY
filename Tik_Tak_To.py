@@ -8,8 +8,6 @@ print("Are you ready to play? If yes type \'Y\' to play else type \'Q\' to quit.
 
 agreement = input('>> ')
 
-print('\n')
-
 
 while True:
 
@@ -23,6 +21,9 @@ while True:
     else:
         print('Please input a correct key!')
         agreement = input(">> ")
+
+
+print('\n')
 
 
 if agreement.lower()=='y':
